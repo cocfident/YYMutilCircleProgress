@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B96F530D1D10F15000A7980A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B96F530C1D10F15000A7980A /* main.m */; };
+		B96F53101D10F15000A7980A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B96F530F1D10F15000A7980A /* AppDelegate.m */; };
+		B96F53131D10F15000A7980A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B96F53121D10F15000A7980A /* ViewController.m */; };
+		B96F53161D10F15000A7980A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96F53141D10F15000A7980A /* Main.storyboard */; };
+		B96F53181D10F15000A7980A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96F53171D10F15000A7980A /* Assets.xcassets */; };
+		B96F531B1D10F15000A7980A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96F53191D10F15000A7980A /* LaunchScreen.storyboard */; };
+		B96F53261D10F15000A7980A /* LYYCircleProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B96F53251D10F15000A7980A /* LYYCircleProgressTests.m */; };
+		B96F53311D10F15100A7980A /* LYYCircleProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B96F53301D10F15100A7980A /* LYYCircleProgressUITests.m */; };
+		B96F53401D10F2D400A7980A /* YYMutilCircleProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = B96F533F1D10F2D400A7980A /* YYMutilCircleProgress.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B96F53221D10F15000A7980A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B96F53001D10F15000A7980A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B96F53071D10F15000A7980A;
+			remoteInfo = LYYCircleProgress;
+		};
+		B96F532D1D10F15100A7980A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B96F53001D10F15000A7980A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B96F53071D10F15000A7980A;
+			remoteInfo = LYYCircleProgress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B96F53081D10F15000A7980A /* LYYCircleProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYYCircleProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96F530C1D10F15000A7980A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B96F530E1D10F15000A7980A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B96F530F1D10F15000A7980A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B96F53111D10F15000A7980A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B96F53121D10F15000A7980A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B96F53151D10F15000A7980A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B96F53171D10F15000A7980A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B96F531A1D10F15000A7980A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B96F531C1D10F15000A7980A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96F53211D10F15000A7980A /* LYYCircleProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYYCircleProgressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96F53251D10F15000A7980A /* LYYCircleProgressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYYCircleProgressTests.m; sourceTree = "<group>"; };
+		B96F53271D10F15000A7980A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96F532C1D10F15100A7980A /* LYYCircleProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYYCircleProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96F53301D10F15100A7980A /* LYYCircleProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYYCircleProgressUITests.m; sourceTree = "<group>"; };
+		B96F53321D10F15100A7980A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96F533E1D10F2D400A7980A /* YYMutilCircleProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMutilCircleProgress.h; sourceTree = "<group>"; };
+		B96F533F1D10F2D400A7980A /* YYMutilCircleProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMutilCircleProgress.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B96F53051D10F15000A7980A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96F531E1D10F15000A7980A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96F53291D10F15100A7980A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B96F52FF1D10F15000A7980A = {
+			isa = PBXGroup;
+			children = (
+				B96F530A1D10F15000A7980A /* LYYCircleProgress */,
+				B96F53241D10F15000A7980A /* LYYCircleProgressTests */,
+				B96F532F1D10F15100A7980A /* LYYCircleProgressUITests */,
+				B96F53091D10F15000A7980A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B96F53091D10F15000A7980A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B96F53081D10F15000A7980A /* LYYCircleProgress.app */,
+				B96F53211D10F15000A7980A /* LYYCircleProgressTests.xctest */,
+				B96F532C1D10F15100A7980A /* LYYCircleProgressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B96F530A1D10F15000A7980A /* LYYCircleProgress */ = {
+			isa = PBXGroup;
+			children = (
+				B96F530E1D10F15000A7980A /* AppDelegate.h */,
+				B96F530F1D10F15000A7980A /* AppDelegate.m */,
+				B96F53111D10F15000A7980A /* ViewController.h */,
+				B96F53121D10F15000A7980A /* ViewController.m */,
+				B96F533E1D10F2D400A7980A /* YYMutilCircleProgress.h */,
+				B96F533F1D10F2D400A7980A /* YYMutilCircleProgress.m */,
+				B96F53141D10F15000A7980A /* Main.storyboard */,
+				B96F53171D10F15000A7980A /* Assets.xcassets */,
+				B96F53191D10F15000A7980A /* LaunchScreen.storyboard */,
+				B96F531C1D10F15000A7980A /* Info.plist */,
+				B96F530B1D10F15000A7980A /* Supporting Files */,
+			);
+			path = LYYCircleProgress;
+			sourceTree = "<group>";
+		};
+		B96F530B1D10F15000A7980A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B96F530C1D10F15000A7980A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B96F53241D10F15000A7980A /* LYYCircleProgressTests */ = {
+			isa = PBXGroup;
+			children = (
+				B96F53251D10F15000A7980A /* LYYCircleProgressTests.m */,
+				B96F53271D10F15000A7980A /* Info.plist */,
+			);
+			path = LYYCircleProgressTests;
+			sourceTree = "<group>";
+		};
+		B96F532F1D10F15100A7980A /* LYYCircleProgressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B96F53301D10F15100A7980A /* LYYCircleProgressUITests.m */,
+				B96F53321D10F15100A7980A /* Info.plist */,
+			);
+			path = LYYCircleProgressUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B96F53071D10F15000A7980A /* LYYCircleProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B96F53351D10F15100A7980A /* Build configuration list for PBXNativeTarget "LYYCircleProgress" */;
+			buildPhases = (
+				B96F53041D10F15000A7980A /* Sources */,
+				B96F53051D10F15000A7980A /* Frameworks */,
+				B96F53061D10F15000A7980A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYYCircleProgress;
+			productName = LYYCircleProgress;
+			productReference = B96F53081D10F15000A7980A /* LYYCircleProgress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B96F53201D10F15000A7980A /* LYYCircleProgressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B96F53381D10F15100A7980A /* Build configuration list for PBXNativeTarget "LYYCircleProgressTests" */;
+			buildPhases = (
+				B96F531D1D10F15000A7980A /* Sources */,
+				B96F531E1D10F15000A7980A /* Frameworks */,
+				B96F531F1D10F15000A7980A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B96F53231D10F15000A7980A /* PBXTargetDependency */,
+			);
+			name = LYYCircleProgressTests;
+			productName = LYYCircleProgressTests;
+			productReference = B96F53211D10F15000A7980A /* LYYCircleProgressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B96F532B1D10F15100A7980A /* LYYCircleProgressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B96F533B1D10F15100A7980A /* Build configuration list for PBXNativeTarget "LYYCircleProgressUITests" */;
+			buildPhases = (
+				B96F53281D10F15100A7980A /* Sources */,
+				B96F53291D10F15100A7980A /* Frameworks */,
+				B96F532A1D10F15100A7980A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B96F532E1D10F15100A7980A /* PBXTargetDependency */,
+			);
+			name = LYYCircleProgressUITests;
+			productName = LYYCircleProgressUITests;
+			productReference = B96F532C1D10F15100A7980A /* LYYCircleProgressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B96F53001D10F15000A7980A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "李运洋";
+				TargetAttributes = {
+					B96F53071D10F15000A7980A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B96F53201D10F15000A7980A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B96F53071D10F15000A7980A;
+					};
+					B96F532B1D10F15100A7980A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B96F53071D10F15000A7980A;
+					};
+				};
+			};
+			buildConfigurationList = B96F53031D10F15000A7980A /* Build configuration list for PBXProject "LYYCircleProgress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B96F52FF1D10F15000A7980A;
+			productRefGroup = B96F53091D10F15000A7980A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B96F53071D10F15000A7980A /* LYYCircleProgress */,
+				B96F53201D10F15000A7980A /* LYYCircleProgressTests */,
+				B96F532B1D10F15100A7980A /* LYYCircleProgressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B96F53061D10F15000A7980A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96F531B1D10F15000A7980A /* LaunchScreen.storyboard in Resources */,
+				B96F53181D10F15000A7980A /* Assets.xcassets in Resources */,
+				B96F53161D10F15000A7980A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96F531F1D10F15000A7980A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96F532A1D10F15100A7980A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B96F53041D10F15000A7980A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96F53131D10F15000A7980A /* ViewController.m in Sources */,
+				B96F53101D10F15000A7980A /* AppDelegate.m in Sources */,
+				B96F53401D10F2D400A7980A /* YYMutilCircleProgress.m in Sources */,
+				B96F530D1D10F15000A7980A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96F531D1D10F15000A7980A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96F53261D10F15000A7980A /* LYYCircleProgressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96F53281D10F15100A7980A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96F53311D10F15100A7980A /* LYYCircleProgressUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B96F53231D10F15000A7980A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B96F53071D10F15000A7980A /* LYYCircleProgress */;
+			targetProxy = B96F53221D10F15000A7980A /* PBXContainerItemProxy */;
+		};
+		B96F532E1D10F15100A7980A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B96F53071D10F15000A7980A /* LYYCircleProgress */;
+			targetProxy = B96F532D1D10F15100A7980A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B96F53141D10F15000A7980A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B96F53151D10F15000A7980A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B96F53191D10F15000A7980A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B96F531A1D10F15000A7980A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B96F53331D10F15100A7980A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B96F53341D10F15100A7980A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B96F53361D10F15100A7980A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LYYCircleProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyue.LYYCircleProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B96F53371D10F15100A7980A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LYYCircleProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyue.LYYCircleProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B96F53391D10F15100A7980A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LYYCircleProgressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyue.LYYCircleProgressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYYCircleProgress.app/LYYCircleProgress";
+			};
+			name = Debug;
+		};
+		B96F533A1D10F15100A7980A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LYYCircleProgressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyue.LYYCircleProgressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYYCircleProgress.app/LYYCircleProgress";
+			};
+			name = Release;
+		};
+		B96F533C1D10F15100A7980A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LYYCircleProgressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyue.LYYCircleProgressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LYYCircleProgress;
+			};
+			name = Debug;
+		};
+		B96F533D1D10F15100A7980A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LYYCircleProgressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyue.LYYCircleProgressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LYYCircleProgress;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B96F53031D10F15000A7980A /* Build configuration list for PBXProject "LYYCircleProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96F53331D10F15100A7980A /* Debug */,
+				B96F53341D10F15100A7980A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B96F53351D10F15100A7980A /* Build configuration list for PBXNativeTarget "LYYCircleProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96F53361D10F15100A7980A /* Debug */,
+				B96F53371D10F15100A7980A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B96F53381D10F15100A7980A /* Build configuration list for PBXNativeTarget "LYYCircleProgressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96F53391D10F15100A7980A /* Debug */,
+				B96F533A1D10F15100A7980A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B96F533B1D10F15100A7980A /* Build configuration list for PBXNativeTarget "LYYCircleProgressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96F533C1D10F15100A7980A /* Debug */,
+				B96F533D1D10F15100A7980A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B96F53001D10F15000A7980A /* Project object */;
+}
